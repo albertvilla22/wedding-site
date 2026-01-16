@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Wedding of Albert & Johnna</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=Montserrat:wght@300;400;600&display=swap" rel="stylesheet">
+    <style>
+        body { font-family: 'Montserrat', sans-serif; background-color: #fffaf5; }
+        h1, h2, h3 { font-family: 'Playfair Display', serif; }
+        .bg-midnight { background-color: #1a2a6c; }
+        .text-gold { color: #c5a059; }
+        .border-gold { border-color: #c5a059; }
+        .btn-primary { background-color: #1a2a6c; color: white; transition: all 0.3s; }
+        .btn-primary:hover { background-color: #c5a059; }
+    </style>
+</head>
+<body class="text-slate-800">
+
+    <header class="relative h-screen flex items-center justify-center text-center bg-midnight text-white overflow-hidden">
+        <div class="absolute inset-0 opacity-40 bg-[url('https://images.unsplash.com/photo-1519741497674-611481863552?auto=format&fit=crop&q=80')] bg-cover bg-center"></div>
+        <div class="relative z-10 px-4">
+            <p class="uppercase tracking-[0.3em] mb-4 text-sm md:text-base">We Are Getting Married</p>
+            <h1 class="text-6xl md:text-8xl mb-4 italic">Albert & Johnna</h1>
+            <p class="text-xl md:text-2xl font-light">December 20, 2025 • Cebu City</p>
+            <div class="mt-8">
+                <a href="#rsvp" class="border border-white px-8 py-3 uppercase tracking-widest text-sm hover:bg-white hover:text-midnight transition">RSVP Now</a>
+            </div>
+        </div>
+    </header>
+
+    <section class="py-20 px-6 max-w-4xl mx-auto text-center">
+        <h2 class="text-4xl mb-8 text-midnight">Our Love Story</h2>
+        <div class="grid md:grid-cols-2 gap-12 text-left items-center">
+            <div>
+                <h3 class="text-2xl mb-4 italic text-gold">How it Started</h3>
+                <p class="leading-relaxed text-slate-600">Thirteen years ago, a quiet nod and a joke about pizza sparked a journey we never expected. What began as a shy introduction at USC–Main grew into a consistent, beautiful devotion.</p>
+            </div>
+            <div>
+                <h3 class="text-2xl mb-4 italic text-gold">The Proposal</h3>
+                <p class="leading-relaxed text-slate-600">In front of the Sto. Niño Church altar, where every prayer began, Albert knelt with a promise. A vow not just to Johnna, but to God and their families, to build a future rooted in faith.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="bg-slate-50 py-20 px-6">
+        <div class="max-w-6xl mx-auto">
+            <h2 class="text-4xl text-center mb-16 text-midnight">Wedding Details</h2>
+            <div class="grid md:grid-cols-2 gap-8">
+                <div class="bg-white p-10 shadow-sm border-t-4 border-gold text-center">
+                    <h3 class="text-2xl mb-4 tracking-wide">The Ceremony</h3>
+                    <p class="font-semibold">2:30 PM</p>
+                    <p class="mb-4">Cebu Archdiocesan Shrine of Saint Pedro Calungsod</p>
+                    <p class="text-sm text-slate-500 italic">Archbishop's Residence Compound, Dionisio Jakosalem St.</p>
+                </div>
+                <div class="bg-white p-10 shadow-sm border-t-4 border-gold text-center">
+                    <h3 class="text-2xl mb-4 tracking-wide">The Reception</h3>
+                    <p class="font-semibold">6:00 PM</p>
+                    <p class="mb-4">Beverly View Events Pavilion</p>
+                    <p class="text-sm text-slate-500 italic">Doña Modesta Gaisano St, Cebu City</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="py-20 px-6 text-center max-w-3xl mx-auto">
+        <h2 class="text-4xl mb-6 text-midnight">Attire & Motif</h2>
+        <p class="mb-8 italic">We kindly request our guests to join us in Formal Attire.</p>
+        <div class="flex justify-center space-x-4 mb-8">
+            <div class="w-16 h-16 rounded-full bg-[#1a2a6c] shadow-inner"></div>
+            <div class="w-16 h-16 rounded-full bg-[#0d1b4a] shadow-inner"></div>
+            <div class="w-16 h-16 rounded-full bg-[#f7e7ce] shadow-inner border border-slate-200"></div>
+        </div>
+        <p class="text-slate-600 uppercase tracking-widest text-sm">Midnight Blue • Champagne • Gold</p>
+    </section>
+
+    <section class="bg-midnight text-white py-20 px-6 text-center">
+        <h2 class="text-4xl mb-6 italic">Gift Guide</h2>
+        <p class="max-w-xl mx-auto mb-10 font-light opacity-90">Your presence is our greatest gift. If you wish to honor us with a contribution toward our new home, a monetary gift would be deeply appreciated.</p>
+        <div class="flex flex-wrap justify-center gap-6">
+            <div class="border border-gold/50 p-6 rounded w-48">
+                <p class="text-gold font-bold">GCASH</p>
+                <p class="text-sm">Johnna V.</p>
+                <p class="text-xs">09XX XXX XXXX</p>
+            </div>
+            <div class="border border-gold/50 p-6 rounded w-48">
+                <p class="text-gold font-bold">UnionBank</p>
+                <p class="text-sm">Albert A.</p>
+                <p class="text-xs">XXXX XXXX XXXX</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="rsvp" class="py-20 px-6 max-w-2xl mx-auto">
+        <div class="text-center mb-12">
+            <h2 class="text-4xl text-midnight mb-4">RSVP</h2>
+            <p class="text-slate-500">Please respond by December 13, 2025</p>
+        </div>
+        <form class="space-y-6">
+            <div>
+                <label class="block text-xs uppercase tracking-widest mb-2 font-semibold">Full Name</label>
+                <input type="text" class="w-full border-b border-slate-300 py-2 focus:border-midnight outline-none bg-transparent">
+            </div>
+            <div>
+                <label class="block text-xs uppercase tracking-widest mb-2 font-semibold">Will you attend?</label>
+                <select class="w-full border-b border-slate-300 py-2 focus:border-midnight outline-none bg-transparent">
+                    <option>Yes, I'll be there</option>
+                    <option>Regretfully Declines</option>
+                </select>
+            </div>
+            <button class="w-full btn-primary py-4 uppercase tracking-[0.2em] text-sm mt-8">Submit Response</button>
+        </form>
+    </section>
+
+    <footer class="py-12 text-center text-slate-400 text-xs border-t">
+        <p>&copy; 2025 THE WEDDING OF ALBERT & JOHNNA. ALL RIGHTS RESERVED.</p>
+    </footer>
+
+</body>
+</html>
